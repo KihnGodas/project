@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100px;
+}
+
+#all{
+    background-image: url(./assets/imgs/background-tet-2023-16.jpg);
+    z-index: -1;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+#sign-in{
+   
+    z-index: 1;
+    background-color: lightgrey;
+    width: 500px;
+    border: 15px solid green;
+    padding: 50px;
+    margin-left: 400px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+
+.home{
+    display: grid;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-item{
+    display: block;
+    position: absolute;
+    top: 45px;
+    right: 0px;
+    height: 0px;
+    background-color: rgb(241, 255, 172);
+    width: 100%;
+    transition: 0.5s;
+    z-index: 1000;
+    visibility: hidden;
+    overflow-y: hidden;
+}
+
+.menu.active .list-item{
+    height: 340px;
+    visibility: visible;
+    overflow-y: auto;
+}
+
+.list-item li{
+    font-size: 30px;
+    border-bottom: 2px solid white;
+    padding: 10px  20px;
+    margin: 20px;
+}
+
+.list-item li a:hover{
+    color: rgb(249, 58, 58);
+}
+
+#sign_in{
+    box-sizing: border-box;
+    width: 84px;
+    height: 42px;
+    border-radius: 5px;
+    color:  azure;
+    align-items: center;
+    background-color: #F54748;
+    border: 1px solid  #F54748;
+}
+
+#sign_up{
+    box-sizing: border-box;
+    width: 84px;
+    height: 42px;
+    border-radius: 5px;
+    background-color: #F54748;
+    color: azure;
+    border: 1px solid #F54748;
+}
+
+#bt-danhmuc{
+    box-sizing: border-box;
+    width: 84px;
+    height: 42px;
+    border-radius: 5px;
+    background-color: #e5ff00;
+    color: rgb(247, 12, 12);
+    border: 1px solid #fcf938;
+    margin-right: 600px;
+}
+
