@@ -1,0 +1,34 @@
+let arr = [
+  {
+    a: "index.html",
+    name: " Trang chủ ",
+  },
+  {
+    a: "about-me.html",
+    name: " Giỏ hàng",
+  },
+  {
+    a: "product.html",
+    name: " Sản phẩm ",
+  },{
+    a:"contact.html",
+    name:"Liên hệ"
+  },
+  {
+    a:"login.html",
+    name:" Đăng nhập"
+  },
+  
+  
+];
+
+let navBar = document.querySelector(".nav-bar");
+if(navBar){
+    navBar.innerHTML = '';
+    for(let i of arr){
+        navBar.innerHTML +=`     <div class="link">
+        <a href="/${i.a}">${i.name}</a>
+    </div>
+    `
+    }
+}
