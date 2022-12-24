@@ -4,7 +4,7 @@ let arr = [
     name: " Trang chủ ",
   },
   {
-    a: "about-me.html",
+    a: "cart.html",
     name: " Giỏ hàng",
   },
   {
