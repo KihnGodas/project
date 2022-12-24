@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.header button{
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(130, 202, 156);
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    
+    font-weight: bold;
+}
+.header button:hover{
+    background-color: rgb(246, 150, 121);
+    transition: 0.5s;
+
+}
+.line{
+    border: 1px solid sandybrown;
+    width: 80%;
+    margin: auto;
+}
+.product{
+    display: flex;
+    justify-content: baseline;}
+    
+.container{
+    display: flex;
+}

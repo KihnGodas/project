@@ -1,10 +1,10 @@
 let arr = [
   {
-    a: "index.html",
+    a: "homepage.html",
     name: " Trang chủ ",
   },
   {
-    a: "about-me.html",
+    a: "cart.html",
     name: " Giỏ hàng",
   },
   {
